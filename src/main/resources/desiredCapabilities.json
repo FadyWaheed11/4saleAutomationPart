@@ -1,0 +1,9 @@
+{
+  "deviceName": "Fady",
+  "udid": "852d60bf",
+  "platformName": "Android",
+  "platformVersion": "13",
+  "automationName": "uiAutomator2",
+  "appPackage": "com.forsale.forsale",
+  "appActivity": "com.forsale.app.features.maincontainer.LauncherActivity"
+}
