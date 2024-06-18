@@ -2,7 +2,7 @@ package screens;
 
 import org.openqa.selenium.By;
 
-import static settings.SharedSteps.clickOnElement;
+import static utils.SharedSteps.clickOnElement;
 
 public class LaunchScreen {
 

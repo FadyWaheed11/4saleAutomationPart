@@ -1,4 +1,4 @@
-package settings;
+package utils;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static settings.DriverFactory.getAppiumDriver;
+import static utils.DriverFactory.getAppiumDriver;
 
 public final class SharedSteps {
     private static final AppiumDriver appiumDriver = getAppiumDriver();

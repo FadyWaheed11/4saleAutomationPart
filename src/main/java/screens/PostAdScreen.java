@@ -2,7 +2,7 @@ package screens;
 
 import org.openqa.selenium.By;
 
-import static settings.SharedSteps.*;
+import static utils.SharedSteps.*;
 
 public class PostAdScreen {
 

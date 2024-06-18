@@ -1,4 +1,4 @@
-package settings;
+package utils;
 
 import io.appium.java_client.AppiumDriver;
 import org.json.simple.JSONObject;
@@ -9,7 +9,7 @@ import java.net.URL;
 
 import static settings.ForSaleSettings.getDesiredCapabilityPath;
 import static settings.ForSaleSettings.getServerUrl;
-import static settings.Helper.readJsonFile;
+import static utils.Helper.readJsonFile;
 
 public final class DriverFactory {
     private static AppiumDriver driver;

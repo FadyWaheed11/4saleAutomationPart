@@ -13,14 +13,14 @@ import static screens.LaunchScreen.getLaunchScreen;
 import static screens.LoginScreen.getLoginScreen;
 import static screens.PostAdScreen.getPostAdScreen;
 
-public class TestCase1 extends Base {
+public class PostAdTest extends Base {
 
 
     LaunchScreen launchScreen = getLaunchScreen();
     LoginScreen loginScreen = getLoginScreen();
     PostAdScreen postAdScreen = getPostAdScreen();
 
-    @Test
+    @Test(priority = 1)
     public void validateThatErrorMessageIsDisplayed() {
         launchScreen.allowNotification()
                 .clickOnPostAd();
@@ -36,14 +36,14 @@ public class TestCase1 extends Base {
         assertTrue(actualResult, "Validation Message didn't displayed !");
     }
 
-    @Test
-    public void test() {
+    @Test(priority = 1)
+    public void ValidateThatUserIsNavigatedToNextScreen() {
         launchScreen.allowNotification()
                 .clickOnPostAd();
         loginScreen.enterPhoneNumber(getPhoneNumber())
                 .enterPassword(getPassword())
                 .clickOnLogin();
-        assertEquals(postAdScreen.clickOnChooseCategory()
+        String actualResult = postAdScreen.clickOnChooseCategory()
                 .selectAutomotiveCategory()
                 .selectCarsSection()
                 .selectMercedesSClassCar()
@@ -53,6 +53,7 @@ public class TestCase1 extends Base {
                 .selectBlock1()
                 .enterTitle(getTitle())
                 .enterPrice(getPrice())
-                .getAddMediaScreenTextViewValue(),"Add Media","Can't Navigate to Add Media Screen");
+                .getAddMediaScreenTextViewValue();
+        assertEquals(actualResult, "Add Media", "Can't Navigate to Add Media Screen");
     }
 }

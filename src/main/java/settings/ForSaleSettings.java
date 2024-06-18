@@ -2,7 +2,7 @@ package settings;
 
 import java.util.Properties;
 
-import static settings.Helper.readPropertiesFile;
+import static utils.Helper.readPropertiesFile;
 
 public final class ForSaleSettings {
     private static final String settingsFilePath = "src/main/resources/settings.properties";

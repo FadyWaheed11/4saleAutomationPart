@@ -3,7 +3,7 @@ package data_driven;
 import org.json.simple.JSONObject;
 
 import static settings.ForSaleSettings.getTestDataPath;
-import static settings.Helper.readJsonFile;
+import static utils.Helper.readJsonFile;
 
 public final class ForSaleTestData {
     private static final JSONObject testData = readJsonFile(getTestDataPath());
