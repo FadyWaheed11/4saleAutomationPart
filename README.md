@@ -50,7 +50,7 @@ Below is an example of how you can install and set up the project.
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Update the `desiredCapabilities.json` file with your `deviceName`, `deviceID` and `paltformVersion` in the project structure found at `src/main/resources/desiredCapabilities.json`
+3. Update the `desiredCapabilities.json` file with your `deviceName`, `deviceID` and `platformVersion` in the project structure found at `src/main/resources/desiredCapabilities.json`
   ```json
 {
   "deviceName": "yourDeviceName",
