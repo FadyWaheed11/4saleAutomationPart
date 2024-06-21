@@ -20,7 +20,7 @@ public class PostAdTest extends Base {
     LoginScreen loginScreen = getLoginScreen();
     PostAdScreen postAdScreen = getPostAdScreen();
 
-    @Test(priority = 1)
+    @Test
     public void validateThatErrorMessageIsDisplayed() {
         launchScreen.allowNotification()
                 .clickOnPostAd();
@@ -36,7 +36,7 @@ public class PostAdTest extends Base {
         assertTrue(actualResult, "Validation Message didn't displayed !");
     }
 
-    @Test(priority = 1)
+    @Test
     public void ValidateThatUserIsNavigatedToNextScreen() {
         launchScreen.allowNotification()
                 .clickOnPostAd();
