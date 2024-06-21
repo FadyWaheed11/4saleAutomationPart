@@ -5,9 +5,9 @@
 * [Built With](#built-with)
 * [Prerequisites](#prerequisites)
 * [Installation and Run](#installation-and-run)
-* [Design Patterns & Concepts](#design-patterns-&-concepts)
+* [Design Patterns & Concepts](#design-patterns-&concepts)
 * [Project Structure](#project-structure)
-* [Test Scenarios](#testscenarios)
+* [Test Scenarios](#test-scenarios)
 ## About The Project
 
 This project is part of the Mobile Test Automation Challenge, Task 2. The objective is to automate a specific scenario on the 4Sale App using Appium. 
