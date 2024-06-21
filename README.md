@@ -14,7 +14,7 @@ This project is part of the Mobile Test Automation Challenge, Task 2. The object
 This challenge tests the functionality, design patterns, code structure, and overall cleanliness and documentation of the automation code.
 This project involves creating an automated test script to ensure the correct functionality of the "Post an Ad" feature within the app.
 
-### Built With
+## Built With
 
 This section should list any major dependencies/libraries used to bootstrap this project.
 
@@ -24,7 +24,7 @@ This section should list any major dependencies/libraries used to bootstrap this
 * [![TestNG][TestNG]][TestNG-url]
 * [![JsonSimple][JsonSimple]][JsonSimple-url]
 
-### Prerequisites
+## Prerequisites
 
 Before running the automation script for the 4Sale App using Appium, ensure the following prerequisites are met:
 1. **Java Development Kit (JDK):**
@@ -42,7 +42,7 @@ Before running the automation script for the 4Sale App using Appium, ensure the 
 7. **Environment Variables (Optional):**
     - Set up any necessary environment variables for Appium or your project configuration, such as paths or specific configurations.
 
-### Installation and Run
+## Installation and Run
 
 Below is an example of how you can install and set up the project.
 
@@ -65,7 +65,6 @@ Below is an example of how you can install and set up the project.
 3. Run the scenarios from `PostAdTest` class found at `src/test/java/test_cases/PostAdTest.java`
    
 
-<!-- USAGE EXAMPLES -->
 ## Design Patterns & Concepts
 * [Page-Object-Model Pattern **POM**](#pom)
 * [Singleton Design Pattern](#singleton-design-pattern)
