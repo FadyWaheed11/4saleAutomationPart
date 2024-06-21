@@ -5,7 +5,7 @@
 * [Built With](#built-with)
 * [Prerequisites](#prerequisites)
 * [Installation and Run](#installation-and-run)
-* [Design Patterns & Concepts](#design-patterns-&concepts)
+* [Design Patterns & Concepts](#design-patterns-and-concepts)
 * [Project Structure](#project-structure)
 * [Test Scenarios](#test-scenarios)
 ## About The Project
@@ -65,7 +65,7 @@ Below is an example of how you can install and set up the project.
 3. Run the scenarios from `PostAdTest` class found at `src/test/java/test_cases/PostAdTest.java`
    
 
-## Design Patterns & Concepts
+## Design Patterns and Concepts
 * [Page-Object-Model Pattern **POM**](#pom)
 * [Singleton Design Pattern](#singleton-design-pattern)
 * [Method Chaining Concept](#method-chaining-concept)
